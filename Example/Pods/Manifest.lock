@@ -1,0 +1,16 @@
+PODS:
+  - WKNavigationWebController (0.1.0)
+
+DEPENDENCIES:
+  - WKNavigationWebController (from `../`)
+
+EXTERNAL SOURCES:
+  WKNavigationWebController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WKNavigationWebController: 1e085b455efc0a927f963f64623fb0a367fc7235
+
+PODFILE CHECKSUM: cc3470af80d2225bda1029335f09db707cfc32da
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,6 @@
+framework module WKNavigationWebController {
+  umbrella header "WKNavigationWebController-umbrella.h"
+
+  export *
+  module * { export * }
+}

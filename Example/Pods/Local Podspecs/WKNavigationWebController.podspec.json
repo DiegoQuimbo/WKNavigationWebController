@@ -1,0 +1,22 @@
+{
+  "name": "WKNavigationWebController",
+  "version": "0.1.0",
+  "summary": "A short description of WKNavigationWebController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DiegoQuimbo/WKNavigationWebController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DiegoQuimbo": "dquimbo22@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/DiegoQuimbo/WKNavigationWebController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WKNavigationWebController/Classes/**/*"
+}
