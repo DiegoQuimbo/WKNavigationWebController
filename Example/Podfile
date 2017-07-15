@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WKNavigationWebController_Example' do
+  pod 'WKNavigationWebController', :path => '../'
+
+  target 'WKNavigationWebController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
