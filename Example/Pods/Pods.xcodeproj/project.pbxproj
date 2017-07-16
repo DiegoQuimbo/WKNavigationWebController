@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1AEC64DCAB742BF9A56E2EA3B4602CCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1B8EBEC1F4948DCB83C9333950DC9DCC /* WKNavigationWebController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE86BCBAAE75BD65CED619E5683DEC9 /* WKNavigationWebController-dummy.m */; };
+		28FB80E235DBEB66B75C612C6FB43751 /* NavigationWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7A15058EB78EA8BC4BA2098D35E4FD /* NavigationWebViewController.swift */; };
 		2AD021CACA48544F77EB21ED5B9F790A /* Pods-WKNavigationWebController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B288F52F3490639771ABA48F0BBE65B7 /* Pods-WKNavigationWebController_Tests-dummy.m */; };
 		6A4DFC6C02947DF568E2BEEF8629F5FB /* Pods-WKNavigationWebController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E6FDAE58D54A3AB3E043006AFDD028 /* Pods-WKNavigationWebController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A3ADCAA61BF7561D1958F7827A370F7 /* WKNavigationWebController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C091CCCAD1142100C7E1FA2B1F7B8DC /* WKNavigationWebController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8744CDBF7FC2732754696DE6FF2C9924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B6B033E075139A6128EF928BAD230AF7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD7BF1CB075490A0DD773641A6DEE /* ReplaceMe.swift */; };
 		BF20E3F07AD5FCA298E25C2EA3A630F6 /* Pods-WKNavigationWebController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5B1905544C2EAC51D24463A3B45E62 /* Pods-WKNavigationWebController_Example-dummy.m */; };
-		C981156BAE20FFAF86895AD12C85C7A4 /* WKNavigationWebController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE86BCBAAE75BD65CED619E5683DEC9 /* WKNavigationWebController-dummy.m */; };
 		EF89FA8686FFD79A1D7CE9B0E04BC994 /* Pods-WKNavigationWebController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F744143E0EBC0729F2B4CEE435EC33 /* Pods-WKNavigationWebController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7DE2F20170E1B68DAFB3981EC35E72F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -40,7 +40,6 @@
 		59683177EC40C8FC09F32912B9C38F02 /* Pods-WKNavigationWebController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WKNavigationWebController_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67E6FDAE58D54A3AB3E043006AFDD028 /* Pods-WKNavigationWebController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKNavigationWebController_Example-umbrella.h"; sourceTree = "<group>"; };
-		6B3AD7BF1CB075490A0DD773641A6DEE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		6BCA8EBECD7C2F310315652E5BC8644A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F4BE2983236D8F28B46DE1180D5BFEB /* Pods-WKNavigationWebController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKNavigationWebController_Example-resources.sh"; sourceTree = "<group>"; };
 		73B075E5FEED4834B8CF961C8495DC91 /* Pods-WKNavigationWebController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKNavigationWebController_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		BC5142D42C11505193131FA6FCA316DB /* Pods_WKNavigationWebController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKNavigationWebController_Tests.framework; path = "Pods-WKNavigationWebController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF02943B39BE55F3CB6E93358E76929C /* Pods-WKNavigationWebController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKNavigationWebController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CDFC24F0BA639D4FBEB8ECC6BB5F667D /* Pods-WKNavigationWebController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKNavigationWebController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CF7A15058EB78EA8BC4BA2098D35E4FD /* NavigationWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigationWebViewController.swift; sourceTree = "<group>"; };
 		DEE86BCBAAE75BD65CED619E5683DEC9 /* WKNavigationWebController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKNavigationWebController-dummy.m"; sourceTree = "<group>"; };
 		E6DCD0167A44ABDAC795B4DEC70D2913 /* Pods_WKNavigationWebController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKNavigationWebController_Example.framework; path = "Pods-WKNavigationWebController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EE3D9834CC3A4C63F8A0917B9D4D96 /* Pods-WKNavigationWebController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKNavigationWebController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -171,15 +171,6 @@
 			path = "Example/Pods/Target Support Files/WKNavigationWebController";
 			sourceTree = "<group>";
 		};
-		55CA6AE398243BEB429DF7FAA40FC08B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6B3AD7BF1CB075490A0DD773641A6DEE /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -202,7 +193,7 @@
 		BC351445EC3209834762689BFEDF1EDF /* WKNavigationWebController */ = {
 			isa = PBXGroup;
 			children = (
-				55CA6AE398243BEB429DF7FAA40FC08B /* Classes */,
+				EC8DDF77D95184FFE9CABBFD3C3F1024 /* Classes */,
 			);
 			name = WKNavigationWebController;
 			path = WKNavigationWebController;
@@ -222,6 +213,15 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		EC8DDF77D95184FFE9CABBFD3C3F1024 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF7A15058EB78EA8BC4BA2098D35E4FD /* NavigationWebViewController.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D2DC948DDF5F0C00A41C67D6E1773CA /* Build configuration list for PBXNativeTarget "WKNavigationWebController" */;
 			buildPhases = (
-				ED4A360CAF81D05081639AD65616CCDE /* Sources */,
+				127D6AE750F51A7830C871CF6411EA7D /* Sources */,
 				229B916E31FAE770917F77BAA4F88994 /* Frameworks */,
 				E79D195B6FF327C5ABF11CD6DCC2FBE0 /* Headers */,
 			);
@@ -335,6 +335,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		127D6AE750F51A7830C871CF6411EA7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FB80E235DBEB66B75C612C6FB43751 /* NavigationWebViewController.swift in Sources */,
+				1B8EBEC1F4948DCB83C9333950DC9DCC /* WKNavigationWebController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		22F2752070EC1F08A02A8D18268412D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,15 +357,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF20E3F07AD5FCA298E25C2EA3A630F6 /* Pods-WKNavigationWebController_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED4A360CAF81D05081639AD65616CCDE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6B033E075139A6128EF928BAD230AF7 /* ReplaceMe.swift in Sources */,
-				C981156BAE20FFAF86895AD12C85C7A4 /* WKNavigationWebController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

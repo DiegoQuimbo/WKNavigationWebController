@@ -7,15 +7,28 @@
 //
 
 import UIKit
+import WKNavigationWebController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+  
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Init NavigationController
+        let navigationController = UINavigationController()
+        
+        // Init NavigationWebViewController and assign URL
+        let url = URL(string: "https://guides.cocoapods.org/making/making-a-cocoapod.html")
+        let navigationWebController = NavigationWebViewController(url: url!)
+        
+        navigationController.viewControllers = [navigationWebController]
+        
+        self.window?.rootViewController = navigationController
+        
         return true
     }
 

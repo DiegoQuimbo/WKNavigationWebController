@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  WKNavigationWebController: 1e085b455efc0a927f963f64623fb0a367fc7235
+  WKNavigationWebController: 1c5e076c5fe441d17e52ba107bf9a0f229f6cfa0
 
 PODFILE CHECKSUM: cc3470af80d2225bda1029335f09db707cfc32da
 
