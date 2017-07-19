@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let navigationController = UINavigationController()
         
         // Init NavigationWebViewController and assign URL
-        let url = URL(string: "https://guides.cocoapods.org/making/making-a-cocoapod.html")
+        let url = URL(string: "https://developer.apple.com/swift/")
         let navigationWebController = NavigationWebViewController(url: url!)
         
         navigationController.viewControllers = [navigationWebController]

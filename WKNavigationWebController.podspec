@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WKNavigationWebController'
-  s.version          = '0.1.1'
-  s.summary          = 'WKWebView with navigation and login'
+  s.version          = '1.0.0'
+  s.summary          = 'Provides a wrapping UIViewController for WKWebView with navigation controls and authentication'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'This CocoaPod provides the ability to use a WKWebView with navigation and login'
+  s.description      = 'This CocoaPod provides a wrapping UIViewController for WKWebView with navigation controls and authenticaton in case that the site requires to use credentials. Available as of iOS 9'
 
   s.homepage         = 'https://github.com/DiegoQuimbo/WKNavigationWebController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -26,10 +26,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/DiegoQuimbo/WKNavigationWebController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'WKNavigationWebController/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'WKNavigationWebController' => ['WKNavigationWebController/Assets/*.png']
   # }

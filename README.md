@@ -7,9 +7,22 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To push a WKWebView onto your UINavigationController, do:
+
+```swift
+import WKNavigationWebController
+
+let url = URL(string: "https://github.com/")
+let navigationWebController = NavigationWebViewController(url: url!)
+
+self.navigationController?.pushViewController(navigationWebController, animated: true)
+```
+
+Remember config "App Transport Security Settings" in your Info.plist
 
 ## Requirements
+
+WebKit, UIKit
 
 ## Installation
 
@@ -17,7 +30,7 @@ WKNavigationWebController is available through [CocoaPods](http://cocoapods.org)
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "WKNavigationWebController"
+pod 'WKNavigationWebController'
 ```
 
 ## Author
